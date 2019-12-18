@@ -1,39 +1,37 @@
 {
   "project_info": {
-    "project_number": "247705971707",
-    "firebase_url": "https://pearadox-2019.firebaseio.com",
-    "project_id": "pearadox-2019",
-    "storage_bucket": "pearadox-2019.appspot.com"
+    "project_number": "281220139373",
+    "firebase_url": "https://pearadox-2020.firebaseio.com",
+    "project_id": "pearadox-2020",
+    "storage_bucket": "pearadox-2020.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:247705971707:android:f9d2d1348193000d",
+        "mobilesdk_app_id": "1:281220139373:android:9b547bd745b7029fecb264",
         "android_client_info": {
           "package_name": "com.pearadox.scout_5414"
         }
       },
       "oauth_client": [
         {
-          "client_id": "247705971707-lusf3min55veg08b7p7at0m3k1m7tido.apps.googleusercontent.com",
+          "client_id": "281220139373-kmqsh8rft4oe44qpmkln7b7v6kqj59b2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDgIYslUD-7uSfb3HZ3dgxKThVRB3gK0T8"
+          "current_key": "AIzaSyDlSZ6R0MPrfEO6b7MSf080k3LDx-_QxiM"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281220139373-kmqsh8rft4oe44qpmkln7b7v6kqj59b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

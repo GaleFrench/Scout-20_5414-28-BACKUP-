@@ -7,8 +7,8 @@ android {
         applicationId "com.pearadox.scout_5414"
         minSdkVersion 18
         targetSdkVersion 26
-        versionCode 27
-        versionName "2.27"
+        versionCode 01
+        versionName "3.01"
         multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -30,15 +30,15 @@ dependencies {
 //    implementation files('libs/TBA-API.jar')
 //    implementation('libs/json-simple-1.1.1.jar')
 
-    implementation 'com.android.support:appcompat-v7:25.1.1'
-    implementation 'com.android.support:design:25.1.1'
-    implementation 'com.google.firebase:firebase-database:16.1.0'
-    implementation 'com.google.firebase:firebase-storage:16.1.0'
-    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.android.support:appcompat-v7:26.0.1'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
     implementation 'com.google.android.gms:play-services:12.0.0'
     implementation 'com.firebaseui:firebase-ui-storage:0.6.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
-    implementation 'com.android.support:preference-v7:25.0.1'
+    implementation 'com.android.support:preference-v7:26.0.1'
     implementation 'junit:junit:4.12'
     implementation 'com.android.support:multidex:1.0.0'
     implementation 'com.github.blackfizz:eazegraph:1.2.2@aar'
