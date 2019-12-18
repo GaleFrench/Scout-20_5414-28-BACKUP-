@@ -4,9 +4,8 @@ import android.graphics.Bitmap;
 import android.media.AudioManager;
 import android.media.MediaActionSound;
 import android.media.ToneGenerator;
-import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Environment;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Gravity;
@@ -24,6 +23,8 @@ import org.eazegraph.lib.models.BarModel;
 
 import java.io.File;
 import java.io.FileOutputStream;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static android.util.Log.e;
 

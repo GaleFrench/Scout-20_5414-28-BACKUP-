@@ -1,5 +1,6 @@
 package com.pearadox.scout_5414;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,10 +13,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
@@ -61,11 +58,9 @@ import java.io.OutputStream;
 import java.util.Arrays;
 import java.util.Iterator;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-import static android.util.Log.e;
-import static android.util.Log.i;
-import static android.util.Log.v;
-import static android.util.Log.w;
 import static android.view.View.VISIBLE;
 
 // Debug & Messaging
@@ -129,6 +124,9 @@ public class MainActivity extends AppCompatActivity {
         Log.w(TAG, "Device ID: " + deviceId);                                       // ** DEBUG
         Pearadox.FRC514_Device = deviceId;        // Save device ID
         setContentView(R.layout.activity_main);
+
+//        Toolbar toolbar = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
         Pearadox.FRC_Event = "";
         txt_messageLine = (TextView) findViewById(R.id.txt_messageLine);
@@ -348,8 +346,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-            setSupportActionBar(toolbar);
+//            Toolbar toolbar = findViewById(R.id.toolbar);
+//            setSupportActionBar(toolbar);
         }
 
 

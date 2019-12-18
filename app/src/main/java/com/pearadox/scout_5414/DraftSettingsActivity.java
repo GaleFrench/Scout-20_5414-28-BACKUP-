@@ -1,8 +1,9 @@
 package com.pearadox.scout_5414;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DraftSettingsActivity extends AppCompatActivity {
     String TAG = "DraftSettingsActivity";        // This CLASS name

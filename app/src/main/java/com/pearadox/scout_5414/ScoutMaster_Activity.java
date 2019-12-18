@@ -4,10 +4,10 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
+import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,13 +15,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Set;
-
-// Debug & Messaging
-import android.util.Log;
 import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
@@ -32,7 +25,13 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import static android.app.PendingIntent.getActivity;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Set;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+// Debug & Messaging
 
 public class ScoutMaster_Activity extends AppCompatActivity {
 

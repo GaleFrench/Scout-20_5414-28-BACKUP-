@@ -1,16 +1,11 @@
 package com.pearadox.scout_5414;
 
 import android.os.Bundle;
-import android.preference.SwitchPreference;
-import android.support.v4.app.Fragment;
-import android.support.v7.preference.EditTextPreference;
-import android.support.v7.preference.PreferenceFragmentCompat;
-import android.support.v7.preference.SwitchPreferenceCompat;
+import android.preference.EditTextPreference;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
+import androidx.preference.PreferenceFragmentCompat;
 
 /**
  * A simple {@link Fragment} subclass.

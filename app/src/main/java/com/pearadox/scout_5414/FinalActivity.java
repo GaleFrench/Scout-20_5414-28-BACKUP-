@@ -1,9 +1,10 @@
 package com.pearadox.scout_5414;
 
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -15,10 +16,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
-//import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.app.Activity;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
@@ -32,6 +31,9 @@ import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+//import android.support.v7.app.AlertDialog;
+//import android.widget.RadioGroup.OnCheckedChangeListener;
 
 
 /**

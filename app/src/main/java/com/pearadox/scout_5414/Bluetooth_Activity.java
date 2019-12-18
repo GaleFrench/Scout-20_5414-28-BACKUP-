@@ -6,7 +6,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -22,7 +21,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Set;
 
-import static android.util.Log.w;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Bluetooth_Activity extends AppCompatActivity {
     String TAG = "Bluetooth_Activity";          // This CLASS name

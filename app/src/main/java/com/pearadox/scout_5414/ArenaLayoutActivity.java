@@ -1,17 +1,12 @@
 package com.pearadox.scout_5414;
 
-import android.content.Intent;
+import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.app.Activity;
 
-import static com.pearadox.scout_5414.R.id.button_GoToFinalActivity;
+import androidx.annotation.RequiresApi;
 
 /**
  * Created by mlm.02000 on 2/5/2017.

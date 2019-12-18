@@ -5,10 +5,10 @@ import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.os.Environment;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,16 +19,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Set;
-
 import android.widget.Toast;
-import android.util.Log;
-import android.view.Gravity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -46,9 +37,23 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.squareup.picasso.Picasso;
 
-// ===== TBA - API for Blue Alliance
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Set;
 
-import static android.util.Log.*;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import static android.util.Log.e;
+import static android.util.Log.i;
+import static android.util.Log.v;
+import static android.util.Log.w;
+
+//import android.support.annotation.NonNull;
+//import android.support.v7.app.AppCompatActivity;
+// ===== TBA - API for Blue Alliance
 
 
 public class Visualizer_Activity extends AppCompatActivity {
