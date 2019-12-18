@@ -648,7 +648,7 @@ public void Toast_Msg(String choice, Integer minimum) {
             teamName = teamHash.substring(5, teamHash.indexOf("("));  // UP TO # MATCHES
             Log.e(TAG, "****** team  '" + teamName + "' ");
 //            FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + teamNum.trim() + ".png");
+            StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + teamNum.trim() + ".png");
             storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                 @Override
                 public void onSuccess(Uri uri) {

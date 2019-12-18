@@ -686,7 +686,7 @@ public class Visualizer_Activity extends AppCompatActivity {
         URL = "";
 
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
         e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
 
         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -713,7 +713,7 @@ public class Visualizer_Activity extends AppCompatActivity {
         i(TAG, ">>>>>  getURL1: " + team);
         URL = "";
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
         e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
 
         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -736,7 +736,7 @@ public class Visualizer_Activity extends AppCompatActivity {
         i(TAG, ">>>>>  getURL2: " + team);
         URL = "";
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
         e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
 
         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -760,7 +760,7 @@ public class Visualizer_Activity extends AppCompatActivity {
         i(TAG, ">>>>>  getURL3: " + team);
         URL = "";
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
         e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
 
         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -783,7 +783,7 @@ public class Visualizer_Activity extends AppCompatActivity {
         i(TAG, ">>>>>  getURL4: " + team);
         URL = "";
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
         e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
 
         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -806,7 +806,7 @@ public class Visualizer_Activity extends AppCompatActivity {
         i(TAG, ">>>>>  getURL5: " + team);
         URL = "";
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
         e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
 
         storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {

@@ -472,7 +472,7 @@ pitData Pit_Data = new pitData();
                     Log.w(TAG, " txtEd_Weight = "  + txtEd_Height.getText());
 
                     if (txtEd_Height.getText().length() > 0) {
-                        tall = Integer.valueOf(String.valueOf(txtEd_Height.getText()));     //REALLY Weight  GLF 3/2019
+                        tall = Integer.valueOf(String.valueOf(txtEd_Height.getText()));     //REALLY Weight  GLF 3/2020
                         Wt_entered = true;
                         Log.w(TAG, "### Used the right key!!  ### " + Wt_entered);
                         return true;
@@ -638,7 +638,7 @@ pitData Pit_Data = new pitData();
         Log.w(TAG, "$$$$$  SaveToFirebase  $$$$$" + savedFile);
 
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/"+ Pearadox.FRC_Event).child(picname);
+        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/"+ Pearadox.FRC_Event).child(picname);
 
         UploadTask uploadTask = storageReference.putFile(currentImageUri);
 
@@ -817,7 +817,7 @@ pitData Pit_Data = new pitData();
                         teamSelected = Pit_Load.getPit_team();
                         //  Height _NOT_ coming back?  Scouters _MUST_ use > keyboard key and NOT Exit
                         txtEd_Height.setText(String.valueOf(Pit_Load.getPit_tall()));
-                        tall = Integer.valueOf(String.valueOf(txtEd_Height.getText()));     // REALLY Weight  GLF 3/2019
+                        tall = Integer.valueOf(String.valueOf(txtEd_Height.getText()));     // REALLY Weight  GLF 3/2020
                         txt_NumWheels.setText(String.valueOf(Pit_Load.getPit_totWheels()));
                         totalWheels = Pit_Load.getPit_totWheels();
                         spinner_Traction.setSelection((Pit_Load.getPit_numTrac()));
@@ -944,7 +944,7 @@ pitData Pit_Data = new pitData();
             imageOnFB = false;
 
             FirebaseStorage storage = FirebaseStorage.getInstance();
-            StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
+            StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child("robot_" + team.trim() + ".png");
             Log.e(TAG, "images/" + Pearadox.FRC_Event + "/robot_" + team.trim() + ".png" + "\n \n");
             storageReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                 @Override
@@ -1114,7 +1114,7 @@ pitData Pit_Data = new pitData();
         Log.w(TAG, ">>>>  storePitData  <<<< " + teamSelected );
 
         Pit_Data.setPit_team(teamSelected);
-        Pit_Data.setPit_tall(tall);     // REALLY Weight  GLF 3/2019
+        Pit_Data.setPit_tall(tall);     // REALLY Weight  GLF 3/2020
         Pit_Data.setPit_totWheels(totalWheels);
         Pit_Data.setPit_numTrac(numTraction);
         Pit_Data.setPit_numOmni(numOmnis);

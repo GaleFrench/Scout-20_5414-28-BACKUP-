@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (NameNotFoundException e) {
             Log.e(TAG, e.getMessage());
         }
-        Toast toast = Toast.makeText(getBaseContext(), "Pearadox Scouting App ©2019  Ver." + Pearadox_Version, Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(getBaseContext(), "Pearadox Scouting App ©2020  Ver." + Pearadox_Version, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
         deviceId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
@@ -425,7 +425,7 @@ public class MainActivity extends AppCompatActivity {
                         currentImageUri = Uri.fromFile(x);
                         Log.w(TAG, " URI " + currentImageUri);
                         FirebaseStorage storage = FirebaseStorage.getInstance();
-//                        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2019.appspot.com/images/" + Pearadox.FRC_Event).child(tmpf);
+//                        StorageReference storageReference = storage.getReferenceFromUrl("gs://pearadox-2020.appspot.com/images/" + Pearadox.FRC_Event).child(tmpf);
 //
 //                        UploadTask uploadTask = storageReference.putFile(currentImageUri);
                         String src = direct_img + "/" + tmpf;
